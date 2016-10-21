@@ -4,6 +4,8 @@ public class Polynomial {
 	private  static int expression(String s)
 	{
 		int num=0;
+		
+		
 		for(int i=0;i<s.length();i++)
 		{
 			if(s.charAt(i)<42 || (s.charAt(i)>43 && s.charAt(i)<48) || (s.charAt(i)>57 && s.charAt(i)<97) || s.charAt(i)>122)
